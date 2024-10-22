@@ -1,28 +1,5 @@
 import java.util.HashMap;
 
-
-
-//String ex= "aabddffeb" find the first unique character in the string using Java. First write the approach and then give the code
-//Approach:
-//Understand the Problem: You are given a string, and you need to find the first character that is not repeated (i.e., it occurs exactly once in the string). If all characters repeat, return an indication of this (like null or -1).
-//
-//Steps:
-//
-//Step 1: Traverse the string and store the frequency of each character in a map or array.
-//Step 2: Traverse the string again and check the stored frequencies to find the first character that has a frequency of 1.
-//Step 3: Return the first unique character if found; otherwise, return -1.
-//Data Structures:
-//
-//Use a HashMap to store the frequency of each character (character as the key, and its count as the value).
-//Time Complexity:
-//
-//The first traversal takes O(n) to count the frequencies.
-//The second traversal takes O(n) to find the first unique character.
-//So, overall time complexity is O(n), where n is the length of the string.
-
-
-import java.util.HashMap;
-
 public class Question1 {
     public static void main(String[] args) {
         String ex = "aabccddeeff";
