@@ -1,5 +1,6 @@
 import java.util.HashMap;
 
+//find the first unique occurrence in the string
 public class Question1 {
     public static void main(String[] args) {
         String ex = "aabccddeeff";
